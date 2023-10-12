@@ -1,0 +1,392 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.upper-most{
+    display: flex;
+}
+.logo{
+    margin-top: 2px;
+    margin-left: 118px;
+}
+.top-nav-search{
+    display: grid;
+}
+.top-most-nav{
+    height: 95px;
+    width: 620px;
+    margin-top: 9px;
+    margin-left: 205px;
+}
+#top-login{
+    width: 46px;
+    height: 24px;
+    border-radius: 4px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    animation: darken 1.5s ease-in-out infinite;
+}
+#emerging{
+    justify-content: center;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+    text-decoration: none;
+    color: #2C5282;
+    font-size: 14px;
+    font-weight: bold;
+    word-spacing: 0px;
+}
+#naac{
+    justify-content: center;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+    text-decoration: none;
+    color: #2C5282;
+    font-size: 14px;
+    font-weight: bold;
+    word-spacing: 0px;
+}
+#nirf{
+    justify-content: center;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+    text-decoration: none;
+    color: #2C5282;
+    font-size: 14px;
+    font-weight: bold;
+    word-spacing: 0px;
+}
+#nisp{
+    justify-content: center;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+    text-decoration: none;
+    color: #2C5282;
+    font-size: 14px;
+    font-weight: bold;
+    word-spacing: 0px;
+}
+#ariia{
+    justify-content: center;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+    text-decoration: none;
+    color: #2C5282;
+    font-size: 14px;
+    font-weight: bold;
+    word-spacing: 0px;
+}
+#iqac{
+    justify-content: center;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+    text-decoration: none;
+    color: #2C5282;
+    font-size: 14px;
+    font-weight: bold;
+    word-spacing: 0px;
+}
+.search{
+    display: flex;
+    margin-left: 251px;
+    margin-top: -75px;
+    align-items: center;
+}
+#searchtext{
+    padding-left: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#searchbox{
+    padding-left: 10px;
+    margin-left: 18px;
+    height: 37px;
+    width: 275px;
+    align-items: center; 
+}
+.search-icon{
+    height: 38px;
+    width: 42px;
+    background-color: #2C5282;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+i{
+    padding-left: 13.25px;
+    padding-top: 12px;
+    height: 14px;
+    width: 15px;
+    
+}
+.second-nav{
+    border: 0px;
+    display: flex;
+    margin: 0px;
+    height: 42px;
+    align-items: center;
+    background-color: #2C5282;
+    align-content: center;  
+}
+#home{
+    text-decoration: none;
+    margin-left: 114px;
+    height: 30px;
+    width: 78px;
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    border-right: 0.5px solid navy;
+    background-color: transparent;
+    color: white;
+}
+#about{
+    text-decoration: none;
+    margin-left: 0px;
+    height: 30px;
+    width: 78px;
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    border-right: 0.5px solid navy; 
+    background-color: transparent;
+    color: white;
+}
+#courses{
+    text-decoration: none;
+    margin-left: 0px;
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    border-right: 0.5px solid navy; 
+    background-color: transparent;
+    color: white;
+}
+#academics{
+    text-decoration: none;
+    margin-left: 0px;
+    height: 30px;
+    width: 105px;
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    border-right: none; 
+    background-color: transparent;
+    color: white;
+}
+#admission{
+    text-decoration: none;
+    margin-left: 0px;
+    height: 31px;
+    width: 113px;
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    border-right: none; 
+    background-color: red;
+    color: white;
+    animation: darken 1.5s ease-in-out infinite;
+}
+#campus-life{
+    text-decoration: none;
+    margin-left: 0px;
+    height: 30px;
+    width: 117.5px;
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    border-right: 0.5px solid navy; 
+    background-color: transparent;
+    color: white;
+}
+#placement{
+    text-decoration: none;
+    margin-left: 0px;
+    height: 30px;
+    width: 112px;
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    border-right: 0.5px solid navy; 
+    background-color: transparent;
+    color: white;
+}
+#research{
+    text-decoration: none;
+    margin-left: 0px;
+    height: 30px;
+    width: 96px;
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    border-right: 0.5px solid navy; 
+    background-color: transparent;
+    color: white;
+}
+#library{
+    text-decoration: none;
+    margin-left: 0px;
+    height: 30px;
+    width: 83.5px;
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    border-right: 0.5px solid navy; 
+    background-color: transparent;
+    color: white;
+}
+#press-media{
+    text-decoration: none;
+    margin-left: 0px;
+    height: 30px;
+    width: 130px;
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    border-right: 0.5px solid navy; 
+    background-color: transparent;
+    color: white;
+}
+#contact-us{
+    text-decoration: none;
+    margin-left: 0px;
+    height: 30px;
+    width: 109.5px;
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    border-right: none; 
+    background-color: transparent;
+    color: white;
+}
+#apply-now{
+    text-decoration: none;
+    margin-left: 0px;
+    height: 31px;
+    width: 108px;
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    border-right: none; 
+    background-color: red;
+    color: white;
+    animation: darken 1.5s ease-in-out infinite;
+}
+#home:hover,#about:hover,#courses:hover,#academics:hover,#campus-life:hover,#placement:hover,#research:hover,#library:hover,#press-media:hover,#contact-us:hover{
+    background-color: red;
+}
+.carousel-cell{
+    background-color: transparent;
+    width: 100%;
+}
+.second-section{
+    display: flex;
+}
+.mckv-details{
+    display: grid;
+}
+.about-mckv{
+    height: 35px;
+    width: 811px;
+    font-size: 20px;
+    padding-left: 115px;
+}
+.photo-text{
+    display: flex;
+    padding-top: 25px;
+}
+.front-photo{
+    margin-top: 20px;
+    margin-left: 115px;
+}
+.text-details{
+    height:290px;
+    width: 348px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-top: 20px;
+    background-color: #f3eaea;
+    font-size: 15px;
+    color: #424242;
+    line-height: 25px;
+}
+.announcement{
+    margin-top: 7px;
+    margin-left: 18px;
+}
+.announcement-box{
+    width:410px;
+    height: 38px;
+    margin-top: 20px;
+    padding-left: 25px;
+    background-color: #2C5282;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+ul.a{
+    list-style-type: circle;
+
+}
+.announcement-links{
+    width: 434px;
+    height: 323px;
+    margin-top: 0px;
+    padding-top: 0.5px;
+    background-color: transparent;
+    border-left: 0.5px solid #8e8e8e;
+    border-bottom: 0.5px solid #8e8e8e;
+    border-right: 0.5px solid #8e8e8e;
+}
+.last-main-block{
+    height: 100px;
+    width: 100%;
+    background-color: #1F1F1F;
+    margin-top: 100px;
+    padding: 0px;
+    display: flex;
+}
+.last-text{
+    color: white;
+    padding-top: 28px;
+    padding-left: 120px;
+}
+.follow-text{
+    padding-top: 26px;
+    padding-left: 120px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.last-icons{
+    margin-left: 15px;
+    margin-top: 30px;
+    display: flex;
+}
+.insta-icon{
+    margin-top: 1px;
+    margin-left: 5px;
+}
+.linkedin-icon{
+    margin-top: -5px;
+    margin-left: -1px;
+}
+.youtube-icon{
+    margin-top: -10px;
+    margin-left: -5px;
+}
+
+@keyframes darken{
+    from{
+        opacity: 1;
+        background-color: red;
+    }
+    to{
+        opacity: 0.5;
+        background-color: #ff0000;
+    }
+}
